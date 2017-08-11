@@ -109,7 +109,7 @@ ggplot(troops, aes(x = long, y = lat, group = group,
 
 <img src="README_files/figure-markdown_github-ascii_identifiers/troops-4-1.png" width="960" />
 
-Finally, we can remove the labels, legends, and change the colors to match <span style="color:#DFC17E;">the shade of brown</span> from Minard's original plot (which I figured our with Photoshop's eye dropper tool).
+Finally, we can remove the labels, legends, and change the colors to match <span style="color:#DFC17E;">the shade of brown</span> from Minard's original plot (which I figured out with Photoshop's eye dropper tool).
 
 ``` r
 ggplot(troops, aes(x = long, y = lat, group = group, 

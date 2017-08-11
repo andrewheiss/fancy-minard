@@ -100,7 +100,7 @@ ggplot(troops, aes(x = long, y = lat, group = group,
   scale_size(range = c(0.5, 15))
 ```
 
-Finally, we can remove the labels, legends, and change the colors to match <span style="color:#DFC17E;">the shade of brown</span> from Minard's original plot (which I figured our with Photoshop's eye dropper tool).
+Finally, we can remove the labels, legends, and change the colors to match <span style="color:#DFC17E;">the shade of brown</span> from Minard's original plot (which I figured out with Photoshop's eye dropper tool).
 
 ```{r troops-5, fig.width=10, fig.height=2.5}
 ggplot(troops, aes(x = long, y = lat, group = group, 
