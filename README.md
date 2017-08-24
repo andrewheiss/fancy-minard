@@ -109,7 +109,7 @@ ggplot(troops, aes(x = long, y = lat, group = group,
 
 <img src="README_files/figure-markdown_github-ascii_identifiers/troops-4-1.png" width="960" />
 
-Finally, we can remove the labels, legends, and change the colors to match <span style="color:#DFC17E;">the shade of brown</span> from Minard's original plot (which I figured out with Photoshop's eye dropper tool).
+Finally, we can remove the labels, legends, and change the colors to match <span style="color:#DFC17E;">the shade of brown</span> from Minard's original plot (which I figured out with Photoshop's eyedropper tool).
 
 ``` r
 ggplot(troops, aes(x = long, y = lat, group = group, 
@@ -273,7 +273,7 @@ temps.1812.plot <- ggplot(data = temps.nice, aes(x = long, y = temp)) +
   geom_line() +
   geom_label(aes(label = nice.label),
             family = "Open Sans Condensed Bold", size = 2.5) + 
-  labs(x = NULL, y = "° Celcius") +
+  labs(x = NULL, y = "° Celsius") +
   scale_x_continuous(limits = ggplot_build(march.1812.plot)$layout$panel_ranges[[1]]$x.range) +
   scale_y_continuous(position = "right") +
   coord_cartesian(ylim = c(-35, 5)) +  # Add some space above/below
@@ -388,7 +388,7 @@ temps.1812.plot <- ggplot(data = temps.nice, aes(x = long, y = temp)) +
   geom_line() +
   geom_label(aes(label = nice.label),
             family = "Open Sans Condensed Bold", size = 2.5) + 
-  labs(x = NULL, y = "° Celcius") +
+  labs(x = NULL, y = "° Celsius") +
   scale_x_continuous(limits = ggplot_build(march.1812.plot.simple)$layout$panel_ranges[[1]]$x.range) +
   scale_y_continuous(position = "right") +
   coord_cartesian(ylim = c(-35, 5)) +  # Add some space above/below
